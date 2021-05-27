@@ -1,0 +1,17 @@
+var = 10+20+30
+print(var)
+var = 10-20-30
+print(var)
+var = 10*20*30
+print(var)
+var = 10/20/30
+print(var)
+var = 2**2
+print(var)
+var = 9**(1/2)
+print(var)
+var = 9%5
+print(var)
+PI = 3.14159265359
+var = round(PI)
+print(var)

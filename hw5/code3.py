@@ -1,8 +1,8 @@
-n = 0.1
+n = float(input("n>>"))
 while round(n) != n:
+    print("n is not a natural number. try again")
     n = float(input("n>>"))
-    if(round(n) != n):
-        print("n is not a natural number. try again")
+        
 
 n = int(n)
 x = float(input("x>>"))

@@ -1,4 +1,5 @@
 t = input("your text>>")
+# medthod 1
 nt = ""
 for item in t:
     if(item.upper() == item):
@@ -7,6 +8,6 @@ for item in t:
         nt+=item.upper()
 print(nt)
 
-t = input("your text>>")
+# medthod 2
 nt = t.swapcase()
 print(nt)

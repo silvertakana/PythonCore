@@ -6,3 +6,7 @@ for item in t:
     else:
         nt+=item.upper()
 print(nt)
+
+t = input("your text>>")
+nt = t.swapcase()
+print(nt)

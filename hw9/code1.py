@@ -5,6 +5,7 @@ name_ids = {
 	"dreMNAlEARACKL": 5629,
 	"SiTiTUstELeTIc": 8572
 }
+#medthod 1
 minimum = float('inf')
 maximum = float('-inf')
 for i in name_ids:
@@ -13,3 +14,6 @@ for i in name_ids:
 	if(n < minimum): minimum = n
 
 print(maximum,minimum)
+
+#medthod 2
+print(max(name_ids.values()),min(name_ids.values()))

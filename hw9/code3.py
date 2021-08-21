@@ -5,6 +5,6 @@ name_ids = {
 	"dreMNAlEARACKL": 5629,
 	"SiTiTUstELeTIc": 8572
 }
-a = list(name_ids.values())
+a = list(name_ids)
 a.sort()
 print(a[-3:])

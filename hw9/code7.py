@@ -5,6 +5,9 @@ name_ids = {
 	"dreMNAlEARACKL": 5629,
 	"SiTiTUstELeTIc": 8572
 }
-a = list(name_ids.values())
-a.sort()
-print(a[-3:])
+a = list(name_ids.items())
+
+a.sort(key = lambda x: x[1])
+
+for i in a[-3:]:
+	print(i)

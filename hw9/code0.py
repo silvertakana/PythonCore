@@ -1,12 +1,12 @@
-name_ids = {
-	"TAcHicepTioUsH": 1283,
-	"RtuatlEnthAINi": 1231,
-	"OTeaMiSetRIshi": 2712,
-	"dreMNAlEARACKL": 5629,
-	"SiTiTUstELeTIc": 8572
+keys = {
+	"1": 2,
+	"2": 4,
+	"3": 6,
+	"4": 8,
+	"5": 10
 }
-tích = 1
-for i in name_ids:
-	tích*=name_ids[i]
+mult_result = 1
+for i in keys:
+	mult_result*=keys[i]
 
-print(tích)
+print(mult_result)

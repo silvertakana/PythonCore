@@ -10,7 +10,7 @@ dogs.append(Dog("Fake",2))
 dogs.append(Dog( "Mickey",7))
 dogs.append(Dog("Fuk",5))
 def get_oldest_dog(*args):
-	###find the oldest dog###
+	'''find the oldest dog'''
 	oldest_dog = args[0]
 	for d in args:
 		if(d.age > oldest_dog.age):

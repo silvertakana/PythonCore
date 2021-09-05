@@ -46,12 +46,29 @@ class User:
 		else:
 			print ("user already logged out.")
 
+	def update_info(self, first_name=None, last_name=None, birthday=None, email=None, address=None, username=None, password=None):
+		def check(x,y):
+			if x != None:
+				return x
+			else: 
+				return y
+		self.first_name = check(first_name,self.first_name)
+		self.last_name = check(last_name,self.last_name)
+		self.birthday = check(birthday,self.birthday)
+		self.email = check(email,self.email)
+		self.address = check(address,self.address)
+		self.username = check(username,self.username)
+		self.password = check(password,self.password)
+
+
 	def __str__(self):
 		return f"\"{self.first_name} {self.last_name}\" \"{self.birthday}\" \"{self.email}\" \"{self.address}\" \"{self.username}\" \"{self.password}\""
 
 
-silver = User("silver","phung",date(16,12,2007),"titmitna@gmain.com", "93a foresthill","silvertakana","helloWorld123")
+silver = User("silvia","phung",date(16,12,2007),"titmitna@gmain.com", "93a foresthill","silvertakana","helloWorld123")
+print(f"user: {silver}")
 
+silver.update_info("silver")
 print(f"user: {silver}")
 print(User.user_count)
 silver.logout()

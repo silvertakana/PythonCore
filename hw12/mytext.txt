@@ -1,0 +1,11 @@
+Mathematics includes the study of such topics as quantity, structure, space, and change. 
+It has no generally accepted definition. 
+Mathematicians seek and use patterns to formulate new conjectures; 
+they resolve the truth or falsity of such by mathematical proof.
+
+Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task.
+
+Life is a characteristic that distinguishes physical entities that have biological processes, 
+such as signaling and self-sustaining processes, 
+from those that do not, either because such functions have ceased, 
+or because they never had such functions and are classified as inanimate.
